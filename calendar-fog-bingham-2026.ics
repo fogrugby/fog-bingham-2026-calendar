@@ -1,0 +1,546 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Collaborator//Fog at Bingham 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fog @ Bingham 2026
+X-WR-TIMEZONE:Australia/Brisbane
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+X-WR-CALDESC:SF Fog RFC team itinerary for the 2026 Bingham Cup, Brisbane. Source: SF Fog 2026 Fog Team Itinerary. Grounds can change - always check Rugby Xplorer.
+BEGIN:VTIMEZONE
+TZID:Australia/Brisbane
+X-LIC-LOCATION:Australia/Brisbane
+BEGIN:STANDARD
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1000
+TZNAME:AEST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:reg-pickup@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260817T100000
+DTEND;TZID=Australia/Brisbane:20260817T163000
+SUMMARY:Registration pick-up - Team Managers only
+LOCATION:The Wickham\, Fortitude Valley QLD
+DESCRIPTION:Managers collect the whole squad's packs and hand them out at
+  training.\nYou do NOT need to go to The Wickham yourself.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:rest-day@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+SUMMARY:Rest & Recovery - free day
+LOCATION:Brisbane
+DESCRIPTION:Recover from the flight. Suggestions: New Farm Park\, Bulimba
+  Memorial Park\, the Botanic Gardens\, or a walk along the Riverwalk.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:training-clinic@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260818T130000
+DTEND;TZID=Australia/Brisbane:20260818T140000
+SUMMARY:Bingham Training Clinic (optional)
+LOCATION:Norths Devils\, Franklin St & Hedley Ave\, Nundah QLD 4012
+DESCRIPTION:Run with Rugby Australia\, featuring Australia 7s icon Sharni
+  Smale.\nArrive 12:45 PM to ensure space. Same ground as our session.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Bingham Training Clinic (optional)
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fog-training-1@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260818T140000
+DTEND;TZID=Australia/Brisbane:20260818T153000
+SUMMARY:SF FOG TRAINING - MANDATORY
+LOCATION:Norths Devils\, Franklin St & Hedley Ave\, Nundah QLD 4012
+DESCRIPTION:Meet at 2:00 PM so we start at 2:30 PM on the dot - we only h
+ ave the field for one hour.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SF FOG TRAINING - MANDATORY
+TRIGGER:-PT90M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:welcome-dinner@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260818T183000
+DTEND;TZID=Australia/Brisbane:20260818T213000
+SUMMARY:Club Welcome Dinner
+LOCATION:Felons Barrel Hall\, 5 Boundary St\, Brisbane City QLD 4000
+DESCRIPTION:FOOD: Order on the QR code at your table and stay there until
+  it arrives.\nPizza\, chips and wings come out fastest\; steaks and main
+ s are slower.\nThe venue has multiple kitchens so food may not all arriv
+ e together.\nDRINKS: Order at the bar directly\, not through the QR app.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Club Welcome Dinner
+TRIGGER:-PT120M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:igr-agm@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260819T093000
+DTEND;TZID=Australia/Brisbane:20260819T110000
+SUMMARY:IGR AGM - IGR Rep\, Club President & President Elect
+LOCATION:The Auditorium\, Ballymore Stadium\, John Isley Dr\, Herston QLD
+  4006
+DESCRIPTION:Attended by the Club's IGR Representative + Club President + 
+ President Elect.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:captains-mtg@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260819T110000
+DTEND;TZID=Australia/Brisbane:20260819T120000
+SUMMARY:Captains & Team Managers Meeting
+LOCATION:The Auditorium\, Ballymore Stadium\, John Isley Dr\, Herston QLD
+  4006
+DESCRIPTION:EVERY side must send a captain. Club manager(s) will be in at
+ tendance.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Captains & Team Managers Meeting
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fog-training-2@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260819T140000
+DTEND;TZID=Australia/Brisbane:20260819T153000
+SUMMARY:SF FOG TRAINING - MANDATORY
+LOCATION:Norths Devils\, Franklin St & Hedley Ave\, Nundah QLD 4012
+DESCRIPTION:Meet at 2:00 PM so we start at 2:30 PM on the dot - we only h
+ ave the field for one hour.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SF FOG TRAINING - MANDATORY
+TRIGGER:-PT90M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:opening-ceremony@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260819T183000
+DTEND;TZID=Australia/Brisbane:20260819T220000
+SUMMARY:OPENING CEREMONY
+LOCATION:UQ Centre\, Building 27A\, University of Queensland\, St Lucia Q
+ LD 4067
+DESCRIPTION:Doors 6:30 PM - show starts 7:30 PM sharp.\nEntry is included
+  in player\, staff and supporter registration.\nATTIRE - FOG BLUES: blue
+  tie\, white shirt\, khaki pants or shorts.\nEat beforehand. Training fi
+ nishes in Nundah at 3:30 PM and the ceremony is across town in St Lucia 
+ - take the 50c CityCat or the M2 Metro.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OPENING CEREMONY
+TRIGGER:-PT120M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:m1-fogb-sandiego@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260820T104000
+DTEND;TZID=Australia/Brisbane:20260820T113000
+SUMMARY:Fog B v San Diego Armada (Pool 1)
+LOCATION:Riverside Rugby Club\, Brisbane QLD - Field 1
+DESCRIPTION:Riverside is a different ground from Norths - plan your trave
+ l.\n\nReport to your coach 1 hour 15 minutes before kickoff.\nBring PHOT
+ O ID and PLAYER BADGE - officials check both. No ID or no badge means no
+  game.\nGrounds can change day to day - check Rugby Xplorer each morning
+ .\nLunch is provided. All fields are natural grass.\nField locations and
+  transport: https://binghamcup2026.com/match-fields
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fog B v San Diego Armada (Pool 1)
+TRIGGER:-PT75M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:m1-fogc-dallas@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260820T104000
+DTEND;TZID=Australia/Brisbane:20260820T113000
+SUMMARY:Fog C v Dallas Lost Souls (Pool 1)
+LOCATION:Norths Rugby Club\, Brisbane QLD - Field 1
+DESCRIPTION:Report to your coach 1 hour 15 minutes before kickoff.\nBring
+  PHOTO ID and PLAYER BADGE - officials check both. No ID or no badge mea
+ ns no game.\nGrounds can change day to day - check Rugby Xplorer each mo
+ rning.\nLunch is provided. All fields are natural grass.\nField location
+ s and transport: https://binghamcup2026.com/match-fields
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fog C v Dallas Lost Souls (Pool 1)
+TRIGGER:-PT75M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:m1-foga-lorikeets@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260820T113000
+DTEND;TZID=Australia/Brisbane:20260820T122000
+SUMMARY:Fog A v First Nations Lorikeets (Pool 1)
+LOCATION:Norths Rugby Club\, Brisbane QLD - Field 2
+DESCRIPTION:Report to your coach 1 hour 15 minutes before kickoff.\nBring
+  PHOTO ID and PLAYER BADGE - officials check both. No ID or no badge mea
+ ns no game.\nGrounds can change day to day - check Rugby Xplorer each mo
+ rning.\nLunch is provided. All fields are natural grass.\nField location
+ s and transport: https://binghamcup2026.com/match-fields
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fog A v First Nations Lorikeets (Pool 1)
+TRIGGER:-PT75M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:m1-fogb-vancouver@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260820T131000
+DTEND;TZID=Australia/Brisbane:20260820T140000
+SUMMARY:Fog B v Vancouver Rogues (Pool 2)
+LOCATION:Riverside Rugby Club\, Brisbane QLD - Field 2
+DESCRIPTION:Report to your coach 1 hour 15 minutes before kickoff.\nBring
+  PHOTO ID and PLAYER BADGE - officials check both. No ID or no badge mea
+ ns no game.\nGrounds can change day to day - check Rugby Xplorer each mo
+ rning.\nLunch is provided. All fields are natural grass.\nField location
+ s and transport: https://binghamcup2026.com/match-fields
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fog B v Vancouver Rogues (Pool 2)
+TRIGGER:-PT75M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:m1-fogc-manchester@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260820T154000
+DTEND;TZID=Australia/Brisbane:20260820T163000
+SUMMARY:Fog C v Manchester Village Spartans (Pool 2)
+LOCATION:Norths Rugby Club\, Brisbane QLD - Field 1
+DESCRIPTION:Report to your coach 1 hour 15 minutes before kickoff.\nBring
+  PHOTO ID and PLAYER BADGE - officials check both. No ID or no badge mea
+ ns no game.\nGrounds can change day to day - check Rugby Xplorer each mo
+ rning.\nLunch is provided. All fields are natural grass.\nField location
+ s and transport: https://binghamcup2026.com/match-fields
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fog C v Manchester Village Spartans (Pool 2)
+TRIGGER:-PT75M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:club-dinner@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260820T193000
+DTEND;TZID=Australia/Brisbane:20260820T223000
+SUMMARY:SF FOG CLUB DINNER
+LOCATION:Jubilee Hotel\, 470 Saint Pauls Terrace\, Fortitude Valley QLD
+DESCRIPTION:FOOD: Order on the QR code at your table and stay there until
+  it arrives.\nPizza\, chips and wings come out fastest\; steaks and main
+ s are slower.\nThe venue has multiple kitchens so food may not all arriv
+ e together.\nDRINKS: Order at the bar directly\, not through the QR app.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SF FOG CLUB DINNER
+TRIGGER:-PT120M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:m2-foga-kingscross@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260821T090000
+DTEND;TZID=Australia/Brisbane:20260821T095000
+SUMMARY:Fog A v Kings Cross Steelers 2nd XV (Pool 2)
+LOCATION:Norths Rugby Club\, Brisbane QLD - Field 2
+DESCRIPTION:Report to your coach 1 hour 15 minutes before kickoff.\nBring
+  PHOTO ID and PLAYER BADGE - officials check both. No ID or no badge mea
+ ns no game.\nGrounds can change day to day - check Rugby Xplorer each mo
+ rning.\nLunch is provided. All fields are natural grass.\nField location
+ s and transport: https://binghamcup2026.com/match-fields
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fog A v Kings Cross Steelers 2nd XV (Pool 2)
+TRIGGER:-PT75M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:m2-fogc-convicts@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260821T104000
+DTEND;TZID=Australia/Brisbane:20260821T113000
+SUMMARY:Fog C v Sydney Convicts 4 (Pool 3)
+LOCATION:Norths Rugby Club\, Brisbane QLD - Field 3
+DESCRIPTION:Report to your coach 1 hour 15 minutes before kickoff.\nBring
+  PHOTO ID and PLAYER BADGE - officials check both. No ID or no badge mea
+ ns no game.\nGrounds can change day to day - check Rugby Xplorer each mo
+ rning.\nLunch is provided. All fields are natural grass.\nField location
+ s and transport: https://binghamcup2026.com/match-fields
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fog C v Sydney Convicts 4 (Pool 3)
+TRIGGER:-PT75M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:m2-fogb-appalachian@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260821T120000
+DTEND;TZID=Australia/Brisbane:20260821T125000
+SUMMARY:Fog B v Appalachian Thunderkatz (Pool 3)
+LOCATION:Ballymore Stadium\, John Isley Dr\, Herston QLD 4006 - Field 1
+DESCRIPTION:Fog B is at Ballymore today.\n\nReport to your coach 1 hour 1
+ 5 minutes before kickoff.\nBring PHOTO ID and PLAYER BADGE - officials c
+ heck both. No ID or no badge means no game.\nGrounds can change day to d
+ ay - check Rugby Xplorer each morning.\nLunch is provided. All fields ar
+ e natural grass.\nField locations and transport: https://binghamcup2026.
+ com/match-fields
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fog B v Appalachian Thunderkatz (Pool 3)
+TRIGGER:-PT75M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:m2-foga-baltimore@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260821T122000
+DTEND;TZID=Australia/Brisbane:20260821T131000
+SUMMARY:Fog A v Baltimore Flamingos (Pool 3)
+LOCATION:Norths Rugby Club\, Brisbane QLD - Field 3
+DESCRIPTION:Report to your coach 1 hour 15 minutes before kickoff.\nBring
+  PHOTO ID and PLAYER BADGE - officials check both. No ID or no badge mea
+ ns no game.\nGrounds can change day to day - check Rugby Xplorer each mo
+ rning.\nLunch is provided. All fields are natural grass.\nField location
+ s and transport: https://binghamcup2026.com/match-fields
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fog A v Baltimore Flamingos (Pool 3)
+TRIGGER:-PT75M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fri-knockouts@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260821T140000
+DTEND;TZID=Australia/Brisbane:20260821T170000
+SUMMARY:Possible knockout games - check Rugby Xplorer
+LOCATION:Norths Rugby Club / Ballymore Stadium
+DESCRIPTION:Knockout games might begin Friday afternoon depending on pool
+  results.\nKeep an eye on Rugby Xplorer after your last pool match.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fri-dinners@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260821T190000
+DTEND;TZID=Australia/Brisbane:20260821T200000
+SUMMARY:Side dinners - own plans
+LOCATION:Brisbane
+DESCRIPTION:A SIDE - dinner + an NRL game. Contact: Captain Josh Ressio.\
+ nB SIDE - team dinner to be confirmed.\nC SIDE - Riverland Brisbane\, 7:
+ 30 PM. Contact: Captain Ikaika.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:amanda-mark-social@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260821T200000
+DTEND;TZID=Australia/Brisbane:20260821T233000
+SUMMARY:Amanda Mark Cup Social
+LOCATION:The Wickham Beer Garden\, Fortitude Valley QLD
+DESCRIPTION:Open to Amanda Mark Cup players\, supporters and friends. DJ 
+ and a special performance.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amanda Mark Cup Social
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:md3-knockouts@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260822T080000
+DTEND;TZID=Australia/Brisbane:20260822T170000
+SUMMARY:MATCH DAY THREE - Knockouts
+LOCATION:Norths Rugby Club / Ballymore Stadium
+DESCRIPTION:Pool play finished Friday - today is knockouts.\nNo Fog side 
+ is knocked out on pool results alone - every side moves into a finals br
+ acket (Bingham: Cup\, Plate\, Bowl or Shield / Challenger: Cup\, Vase or
+  Beer Stein).\nToday's fixtures are set once Friday's pools finish - CHE
+ CK RUGBY XPLORER FRIDAY EVENING.\n\nReport to your coach 1 hour 15 minut
+ es before kickoff.\nBring PHOTO ID and PLAYER BADGE - officials check bo
+ th. No ID or no badge means no game.\nGrounds can change day to day - ch
+ eck Rugby Xplorer each morning.\nLunch is provided. All fields are natur
+ al grass.\nField locations and transport: https://binghamcup2026.com/mat
+ ch-fields
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MATCH DAY THREE - Knockouts
+TRIGGER:-PT120M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sat-dinners@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260822T183000
+DTEND;TZID=Australia/Brisbane:20260822T200000
+SUMMARY:Side dinners - own plans
+LOCATION:Brisbane
+DESCRIPTION:A SIDE - Osbourne Hotel\, 6:30 PM. Contact: Captain Josh Ress
+ io.\nB SIDE - team dinner to be confirmed.\nC SIDE - team dinner to be c
+ onfirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:tournament-party@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260822T210000
+DTEND;TZID=Australia/Brisbane:20260823T030000
+SUMMARY:Official Tournament Party
+LOCATION:The Beaumont\, Fortitude Valley QLD
+DESCRIPTION:TICKETED - not included in your registration.\nBuy tickets: h
+ ttps://events.humanitix.com/tournamentparty
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Official Tournament Party
+TRIGGER:-PT120M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finals@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260823T080000
+DTEND;TZID=Australia/Brisbane:20260823T170000
+SUMMARY:Tournament Finals
+LOCATION:Norths Rugby Club\, Brisbane QLD
+DESCRIPTION:Whichever bracket your side reached\, this is the last day to
+  play - come support every Fog side.\nFinals are two 25-minute halves (p
+ ool and knockout games are 20-minute halves).\n\nReport to your coach 1 
+ hour 15 minutes before kickoff.\nBring PHOTO ID and PLAYER BADGE - offic
+ ials check both. No ID or no badge means no game.\nGrounds can change da
+ y to day - check Rugby Xplorer each morning.\nLunch is provided. All fie
+ lds are natural grass.\nField locations and transport: https://binghamcu
+ p2026.com/match-fields
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tournament Finals
+TRIGGER:-PT120M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:closing-ceremony@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;TZID=Australia/Brisbane:20260823T190000
+DTEND;TZID=Australia/Brisbane:20260823T230000
+SUMMARY:CLOSING CEREMONY
+LOCATION:The Fortitude Music Hall\, 312-318 Brunswick St\, Fortitude Vall
+ ey QLD
+DESCRIPTION:Doors 7:00 PM - show starts 8:00 PM.\nIncluded in registratio
+ n.\nTHEME: SUNSHINE STATE.\nAwards\, DJs and drag performances.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CLOSING CEREMONY
+TRIGGER:-PT120M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:farewell@fogbingham2026.calendar
+DTSTAMP:20260819T060000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+SUMMARY:Farewell & recovery events (optional)
+LOCATION:Brisbane
+DESCRIPTION:Optional farewell and recovery events around Brisbane. Watch 
+ the Bingham socials for venues.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
